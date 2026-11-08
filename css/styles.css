@@ -1,0 +1,40 @@
+/* Seminar-Laboratori 1 - Dizajni fillestar */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f6fb;
+    color: #142b50;
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 30px;
+  }
+  
+  h1 {
+    color: #142b50;
+    border-bottom: 2px solid #24558a;
+    padding-bottom: 15px;
+  }
+  
+  h2 {
+    margin-top: 35px;
+  }
+  
+  input {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+  }
+  
+  button {
+    padding: 12px 18px;
+    background: #142b50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #24558a;
+  }
+  
