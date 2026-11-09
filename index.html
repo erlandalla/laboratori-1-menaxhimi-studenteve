@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html lang="sq">
-
 <head>
   <meta charset="UTF-8">
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
   <title>Menaxhimi i Studentëve</title>
-
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-
   <main class="container">
 
     <h1>Menaxhimi i Studentëve</h1>
@@ -24,45 +18,36 @@
       Seminar-Laboratori 1 – Inxhinieri Programesh
     </p>
 
-    <!-- Regjistrimi i studentëve -->
     <section>
-
       <h2>Regjistrimi i studentit</h2>
 
-      <form id="studentForm">
-
+      <form id="studentForm" novalidate>
         <input
           type="text"
           id="emri"
           placeholder="Emri i studentit"
           aria-label="Emri i studentit"
+          aria-describedby="gabimi"
           required
         >
 
         <button type="submit">
           Shto studentin
         </button>
-
       </form>
 
+      <p id="gabimi" role="alert"></p>
     </section>
 
-    <!-- Statistikat -->
     <section>
-
       <p class="statistika">
         Numri total i studentëve:
         <strong id="numriStudenteve">0</strong>
       </p>
-
     </section>
 
-    <!-- Kërkimi i studentëve -->
     <section class="seksioni-kerko">
-
-      <label for="kerko">
-        Kërko student
-      </label>
+      <label for="kerko">Kërko student</label>
 
       <input
         type="search"
@@ -70,23 +55,17 @@
         placeholder="Kërko sipas emrit..."
         autocomplete="off"
       >
-
     </section>
 
-    <!-- Lista e studentëve -->
     <section>
-
       <h2>Lista e studentëve</h2>
 
       <p id="mesazhi" aria-live="polite"></p>
-
       <ul id="lista"></ul>
-
     </section>
 
   </main>
 
   <script src="js/script.js"></script>
-
 </body>
 </html>

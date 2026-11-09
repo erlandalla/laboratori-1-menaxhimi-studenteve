@@ -228,3 +228,16 @@ label[for="kerko"] {
     margin-left: auto;
   }
 }
+
+/* Commit 09 - Mesazhet e validimit */
+
+#gabimi {
+  color: #b91c1c;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+#gabimi:empty {
+  display: none;
+}
