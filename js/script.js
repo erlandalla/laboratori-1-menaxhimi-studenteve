@@ -11,11 +11,30 @@ formulari.addEventListener("submit", function (event) {
     return;
   }
 
+  // Krijojmë elementin e studentit
   const studenti = document.createElement("li");
-  studenti.textContent = emri;
 
+  // Krijojmë tekstin e emrit
+  const emriStudentit = document.createElement("span");
+  emriStudentit.textContent = emri;
+
+  // Krijojmë butonin Fshi
+  const butoniFshi = document.createElement("button");
+  butoniFshi.textContent = "Fshi";
+  butoniFshi.type = "button";
+  butoniFshi.className = "btn-fshi";
+
+  // Funksioni i fshirjes
+  butoniFshi.addEventListener("click", function () {
+    studenti.remove();
+  });
+
+  // Shtojmë elementet në listë
+  studenti.appendChild(emriStudentit);
+  studenti.appendChild(butoniFshi);
   lista.appendChild(studenti);
 
+  // Pastrojmë formularin
   formulari.reset();
   fushaEmrit.focus();
 });
