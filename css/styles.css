@@ -1,85 +1,165 @@
-/* Seminar-Laboratori 1 - Dizajni fillestar */
+
+/* Seminar-Laboratori 1 - CSS */
+
+/* Konfigurimi i përgjithshëm */
+
+* {
+  box-sizing: border-box;
+}
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f3f6fb;
-    color: #142b50;
-    max-width: 850px;
-    margin: 50px auto;
-    padding: 30px;
-  }
-  
-  h1 {
-    color: #142b50;
-    border-bottom: 2px solid #24558a;
-    padding-bottom: 15px;
-  }
-  
-  h2 {
-    margin-top: 35px;
-  }
-  
-  input {
-    padding: 12px;
-    border: 1px solid #cbd5e1;
-    border-radius: 6px;
-  }
-  
-  button {
-    padding: 12px 18px;
-    background: #142b50;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background: #24558a;
-  }
-  
-  /* Lista e studentëve */
+  font-family: Arial, sans-serif;
+  background-color: #f3f6fb;
+  color: #142b50;
+  margin: 0;
+  padding: 30px 16px;
+}
+
+/* Përmbajtja kryesore */
+
+.container {
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 32px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(20, 43, 80, 0.06);
+}
+
+/* Titujt */
+
+h1 {
+  color: #142b50;
+  font-size: 30px;
+  border-bottom: 2px solid #24558a;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
+
+.nentitull {
+  color: #475569;
+  margin-bottom: 35px;
+}
+
+h2 {
+  font-size: 21px;
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+
+/* Formulari */
+
+#studentForm {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+#emri {
+  flex: 1;
+  min-width: 180px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #24558a;
+  box-shadow: 0 0 0 3px rgba(36, 85, 138, 0.1);
+}
+
+/* Butonat */
+
+button {
+  padding: 12px 18px;
+  background: #142b50;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background: #24558a;
+}
+
+/* Statistikat */
+
+.statistika {
+  margin-top: 28px;
+  padding: 15px;
+  background: #edf3ff;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+#numriStudenteve {
+  color: #174a8b;
+  font-size: 21px;
+  margin-left: 8px;
+}
+
+/* Kërkimi */
+
+.seksioni-kerko {
+  margin-top: 28px;
+}
+
+label[for="kerko"] {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+#kerko {
+  display: block;
+  width: 100%;
+  background: #ffffff;
+}
+
+/* Lista e studentëve */
 
 #lista {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 #lista li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
-  padding: 12px 16px;
+  gap: 15px;
+  padding: 14px 16px;
   margin-bottom: 10px;
-  background: #ffffff;
+  background: #f8fafc;
   border: 1px solid #dce4ef;
   border-radius: 8px;
 }
 
 #lista li span {
-  font-weight: 500;
+  font-weight: 600;
+  overflow-wrap: anywhere;
 }
 
-/* Butoni Fshi */
-
-.btn-fshi {
-  background: #fee2e2;
-  color: #b91c1c;
-  padding: 8px 14px;
-  border-radius: 6px;
-}
-
-.btn-fshi:hover {
-  background: #fecaca;
-}
-
-/* Grupi i butonave */
+/* Grupi i veprimeve */
 
 .veprimet {
   display: flex;
   align-items: center;
   gap: 8px;
+  flex-shrink: 0;
 }
 
 /* Butoni Modifiko */
@@ -88,9 +168,63 @@ body {
   background: #e7efff;
   color: #174a8b;
   padding: 8px 14px;
-  border-radius: 6px;
 }
 
 .btn-modifiko:hover {
   background: #d4e4ff;
+}
+
+/* Butoni Fshi */
+
+.btn-fshi {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 8px 14px;
+}
+
+.btn-fshi:hover {
+  background: #fecaca;
+}
+
+/* Mesazhet informuese */
+
+#mesazhi {
+  color: #64748b;
+  font-style: italic;
+  margin: 12px 0;
+}
+
+#mesazhi:empty {
+  display: none;
+}
+
+/* Përshtatja për celular */
+
+@media (max-width: 600px) {
+
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  #studentForm {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #emri {
+    width: 100%;
+    flex: auto;
+  }
+
+  #lista li {
+    flex-wrap: wrap;
+  }
+
+  .veprimet {
+    margin-left: auto;
+  }
 }

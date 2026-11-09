@@ -1,32 +1,92 @@
 <!DOCTYPE html>
 <html lang="sq">
+
 <head>
-  <link rel="stylesheet" href="css/styles.css">
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
   <title>Menaxhimi i Studentëve</title>
+
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-  <h1>Menaxhimi i Studentëve</h1>
+  <main class="container">
 
-  <p>Seminar-Laboratori 1 – Inxhinieri Programesh</p>
+    <h1>Menaxhimi i Studentëve</h1>
 
-  <h2>Regjistrimi i studentit</h2>
+    <p class="nentitull">
+      Seminar-Laboratori 1 – Inxhinieri Programesh
+    </p>
 
-  <form id="studentForm">
-    <input
-      type="text"
-      id="emri"
-      placeholder="Emri i studentit"
-      required
-    >
-    <button type="submit">Shto studentin</button>
-  </form>
+    <!-- Regjistrimi i studentëve -->
+    <section>
 
-  <h2>Lista e studentëve</h2>
-  <ul id="lista"></ul>
+      <h2>Regjistrimi i studentit</h2>
+
+      <form id="studentForm">
+
+        <input
+          type="text"
+          id="emri"
+          placeholder="Emri i studentit"
+          aria-label="Emri i studentit"
+          required
+        >
+
+        <button type="submit">
+          Shto studentin
+        </button>
+
+      </form>
+
+    </section>
+
+    <!-- Statistikat -->
+    <section>
+
+      <p class="statistika">
+        Numri total i studentëve:
+        <strong id="numriStudenteve">0</strong>
+      </p>
+
+    </section>
+
+    <!-- Kërkimi i studentëve -->
+    <section class="seksioni-kerko">
+
+      <label for="kerko">
+        Kërko student
+      </label>
+
+      <input
+        type="search"
+        id="kerko"
+        placeholder="Kërko sipas emrit..."
+        autocomplete="off"
+      >
+
+    </section>
+
+    <!-- Lista e studentëve -->
+    <section>
+
+      <h2>Lista e studentëve</h2>
+
+      <p id="mesazhi" aria-live="polite"></p>
+
+      <ul id="lista"></ul>
+
+    </section>
+
+  </main>
+
   <script src="js/script.js"></script>
+
 </body>
 </html>
