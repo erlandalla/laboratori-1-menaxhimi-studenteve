@@ -14,24 +14,48 @@ formulari.addEventListener("submit", function (event) {
   // Krijojmë elementin e studentit
   const studenti = document.createElement("li");
 
-  // Krijojmë tekstin e emrit
+  // Emri i studentit
   const emriStudentit = document.createElement("span");
   emriStudentit.textContent = emri;
 
-  // Krijojmë butonin Fshi
+  // Grupi i butonave
+  const veprimet = document.createElement("div");
+  veprimet.className = "veprimet";
+
+  // Butoni Modifiko
+  const butoniModifiko = document.createElement("button");
+  butoniModifiko.textContent = "Modifiko";
+  butoniModifiko.type = "button";
+  butoniModifiko.className = "btn-modifiko";
+
+  butoniModifiko.addEventListener("click", function () {
+    const emriIRi = prompt(
+      "Shkruaj emrin e ri të studentit:",
+      emriStudentit.textContent
+    );
+
+    if (emriIRi !== null && emriIRi.trim() !== "") {
+      emriStudentit.textContent = emriIRi.trim();
+    }
+  });
+
+  // Butoni Fshi
   const butoniFshi = document.createElement("button");
   butoniFshi.textContent = "Fshi";
   butoniFshi.type = "button";
   butoniFshi.className = "btn-fshi";
 
-  // Funksioni i fshirjes
   butoniFshi.addEventListener("click", function () {
     studenti.remove();
   });
 
-  // Shtojmë elementet në listë
+  // Vendosim butonat paralel
+  veprimet.appendChild(butoniModifiko);
+  veprimet.appendChild(butoniFshi);
+
+  // Shtojmë studentin në listë
   studenti.appendChild(emriStudentit);
-  studenti.appendChild(butoniFshi);
+  studenti.appendChild(veprimet);
   lista.appendChild(studenti);
 
   // Pastrojmë formularin

@@ -73,3 +73,24 @@ body {
 .btn-fshi:hover {
   background: #fecaca;
 }
+
+/* Grupi i butonave */
+
+.veprimet {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Butoni Modifiko */
+
+.btn-modifiko {
+  background: #e7efff;
+  color: #174a8b;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+.btn-modifiko:hover {
+  background: #d4e4ff;
+}
