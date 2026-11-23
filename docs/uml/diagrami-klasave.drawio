@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-11-23T00:00:00.000Z" agent="ChatGPT" version="24.7.17" type="device">
+  <diagram id="klasat-uml" name="Diagrami i klasave">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1860" pageHeight="690" math="0" shadow="0" background="#F7F9FC">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="titulli" value="Diagrami UML i klasave" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=34;fontStyle=1;fontColor=#19395E;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="80" y="29" width="1700" height="54" as="geometry"/>
+        </mxCell>
+        <mxCell id="nentitulli" value="Sistemi i Menaxhimit të Studentëve  •  Model konceptual" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=19;fontColor=#52647C;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="100" y="84" width="1660" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="studenti" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#93A9C3;strokeWidth=2;shadow=0;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="215" width="420" height="245" as="geometry"/>
+        </mxCell>
+        <mxCell id="studenti_header" value="Studenti" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#19395E;strokeColor=none;fontColor=#FFFFFF;fontSize=23;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;resizable=0;" vertex="1" parent="studenti">
+          <mxGeometry x="0" y="0" width="420" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="studenti_attr" value="- emri: String" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=18;fontSize=18;fontColor=#1B2F48;fontFamily=Arial;" vertex="1" parent="studenti">
+          <mxGeometry x="0" y="59" width="420" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="studenti_methods" value="+ merrEmrin(): String&#10;+ ndryshoEmrin(emriIRi: String): void" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacingTop=15;spacingLeft=18;fontSize=18;fontColor=#1B2F48;fontFamily=Arial;" vertex="1" parent="studenti">
+          <mxGeometry x="0" y="124" width="420" height="121" as="geometry"/>
+        </mxCell>
+        <mxCell id="studenti_line1" value="" style="rectangle;rounded=0;strokeColor=none;fillColor=#93A9C3;" vertex="1" parent="studenti">
+          <mxGeometry x="0" y="58" width="420" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="studenti_line2" value="" style="rectangle;rounded=0;strokeColor=none;fillColor=#93A9C3;" vertex="1" parent="studenti">
+          <mxGeometry x="0" y="123" width="420" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="menaxhuesi" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#93A9C3;strokeWidth=2;shadow=0;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="615" y="150" width="630" height="375" as="geometry"/>
+        </mxCell>
+        <mxCell id="menaxhuesi_header" value="MenaxhuesiStudenteve" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#19395E;strokeColor=none;fontColor=#FFFFFF;fontSize=23;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;resizable=0;" vertex="1" parent="menaxhuesi">
+          <mxGeometry x="0" y="0" width="630" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="menaxhuesi_attr" value="- studentet: Studenti[]" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=18;fontSize=18;fontColor=#1B2F48;fontFamily=Arial;" vertex="1" parent="menaxhuesi">
+          <mxGeometry x="0" y="59" width="630" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="menaxhuesi_methods" value="+ regjistroStudentin(emri: String): void&#10;+ modifikoStudentin(index: Number, emri: String): void&#10;+ fshiStudentin(index: Number): void&#10;+ kerkoStudentet(tekst: String): Studenti[]&#10;+ numeroStudentet(): Number&#10;+ validoEmrin(emri: String): String" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacingTop=15;spacingLeft=18;fontSize=18;fontColor=#1B2F48;fontFamily=Arial;" vertex="1" parent="menaxhuesi">
+          <mxGeometry x="0" y="124" width="630" height="251" as="geometry"/>
+        </mxCell>
+        <mxCell id="menaxhuesi_line1" value="" style="rectangle;rounded=0;strokeColor=none;fillColor=#93A9C3;" vertex="1" parent="menaxhuesi">
+          <mxGeometry x="0" y="58" width="630" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="menaxhuesi_line2" value="" style="rectangle;rounded=0;strokeColor=none;fillColor=#93A9C3;" vertex="1" parent="menaxhuesi">
+          <mxGeometry x="0" y="123" width="630" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ruajtja" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#93A9C3;strokeWidth=2;shadow=0;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="215" width="430" height="245" as="geometry"/>
+        </mxCell>
+        <mxCell id="ruajtja_header" value="RuajtjaLokale" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#19395E;strokeColor=none;fontColor=#FFFFFF;fontSize=23;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;resizable=0;" vertex="1" parent="ruajtja">
+          <mxGeometry x="0" y="0" width="430" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="ruajtja_attr" value="- celesi: String" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=18;fontSize=18;fontColor=#1B2F48;fontFamily=Arial;" vertex="1" parent="ruajtja">
+          <mxGeometry x="0" y="59" width="430" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="ruajtja_methods" value="+ lexoStudentet(): Studenti[]&#10;+ ruajStudentet(studentet: Studenti[]): void" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;align=left;verticalAlign=top;spacingTop=15;spacingLeft=18;fontSize=18;fontColor=#1B2F48;fontFamily=Arial;" vertex="1" parent="ruajtja">
+          <mxGeometry x="0" y="124" width="430" height="121" as="geometry"/>
+        </mxCell>
+        <mxCell id="ruajtja_line1" value="" style="rectangle;rounded=0;strokeColor=none;fillColor=#93A9C3;" vertex="1" parent="ruajtja">
+          <mxGeometry x="0" y="58" width="430" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ruajtja_line2" value="" style="rectangle;rounded=0;strokeColor=none;fillColor=#93A9C3;" vertex="1" parent="ruajtja">
+          <mxGeometry x="0" y="123" width="430" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="menaxhon" value="menaxhon" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#244D79;strokeWidth=2.5;endArrow=open;endFill=0;startArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#19395E;fontSize=16;labelBackgroundColor=#F7F9FC;verticalLabelPosition=top;verticalAlign=bottom;" edge="1" parent="1" source="menaxhuesi" target="studenti">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="perdor" value="përdor" style="edgeStyle=none;rounded=0;html=0;strokeColor=#244D79;strokeWidth=2.5;dashed=1;dashPattern=8 5;endArrow=open;endFill=0;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#19395E;fontSize=16;labelBackgroundColor=#F7F9FC;verticalLabelPosition=top;verticalAlign=bottom;" edge="1" parent="1" source="menaxhuesi" target="ruajtja">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="mult_student" value="0..*" style="text;html=0;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;fontColor=#19395E;fontSize=16;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="492" y="348" width="42" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="mult_manager" value="1" style="text;html=0;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;fontColor=#19395E;fontSize=16;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="579" y="348" width="42" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shpjegim" value="Shënim: Model i propozuar për ristrukturimin objektor. Aplikacioni aktual përdor JavaScript procedural dhe localStorage." style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fontColor=#52647C;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="100" y="570" width="1660" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="legjenda" value="Lidhje e plotë: Association     •     Lidhje e ndërprerë: Dependency     •     + Publike     •     − Private" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontColor=#52647C;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="150" y="612" width="1560" height="33" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
