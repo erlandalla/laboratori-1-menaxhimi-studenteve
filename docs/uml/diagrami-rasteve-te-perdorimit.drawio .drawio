@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="4lyDuROrq_V2Uptls00d">
+    <mxGraphModel dx="1030" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="770" width="770" x="200" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-30" edge="1" parent="1" source="NTlsoJPtowSk1-Xdmp0e-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Përdoruesi" vertex="1">
+          <mxGeometry height="60" width="30" x="110" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Menaxhimi i Studentëve" vertex="1">
+          <mxGeometry height="30" width="148.75" x="436.88" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-7" parent="1" style="ellipse;html=1;whiteSpace=wrap;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Regjistro Studentin&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="60" width="219.53" x="450.63" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-8" parent="1" style="ellipse;html=1;whiteSpace=wrap;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px;&quot;&gt;Shiko Listën&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="50" width="219.53" x="460.47" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-18" edge="1" parent="1" source="NTlsoJPtowSk1-Xdmp0e-2" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.007;entryY=0.423;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="NTlsoJPtowSk1-Xdmp0e-7" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="140" y="260" as="sourcePoint" />
+            <mxPoint x="300" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-20" edge="1" parent="1" source="NTlsoJPtowSk1-Xdmp0e-2" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="NTlsoJPtowSk1-Xdmp0e-8" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="150" y="270" as="sourcePoint" />
+            <mxPoint x="411" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-22" parent="1" style="ellipse;html=1;whiteSpace=wrap;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px;&quot;&gt;Kërko Studentin&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="40" width="226.25" x="453.75" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-23" parent="1" style="ellipse;html=1;whiteSpace=wrap;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px;&quot;&gt;Modifiko Studentin&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="40" width="219.53" x="453.75" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-24" parent="1" style="ellipse;html=1;whiteSpace=wrap;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px;&quot;&gt;Fshi Studentin&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="40" width="219.53" x="460.47" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-25" parent="1" style="ellipse;html=1;whiteSpace=wrap;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px;&quot;&gt;Shiko Numrin Total&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="40" width="219.53" x="460.47" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-26" edge="1" parent="1" source="NTlsoJPtowSk1-Xdmp0e-2" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="NTlsoJPtowSk1-Xdmp0e-22" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="133.75" y="285" as="sourcePoint" />
+            <mxPoint x="453.75" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-27" edge="1" parent="1" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="NTlsoJPtowSk1-Xdmp0e-23" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="124.75" y="270" as="sourcePoint" />
+            <mxPoint x="453.75" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-28" edge="1" parent="1" source="NTlsoJPtowSk1-Xdmp0e-2" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="NTlsoJPtowSk1-Xdmp0e-24" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="190" y="330" as="sourcePoint" />
+            <mxPoint x="519.25" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-29" edge="1" parent="1" source="NTlsoJPtowSk1-Xdmp0e-2" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="NTlsoJPtowSk1-Xdmp0e-25" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="140.47000000000003" y="303.5" as="sourcePoint" />
+            <mxPoint x="460.47" y="456.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-37" parent="1" style="ellipse;html=1;whiteSpace=wrap;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px;&quot;&gt;Valido emrin dhe dublikat&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="60" width="219.53" x="740" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-41" edge="1" parent="1" source="NTlsoJPtowSk1-Xdmp0e-7" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="NTlsoJPtowSk1-Xdmp0e-37" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="0.1448" y="17" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="660" y="180" as="sourcePoint" />
+            <mxPoint x="820" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTlsoJPtowSk1-Xdmp0e-42" edge="1" parent="1" source="NTlsoJPtowSk1-Xdmp0e-23" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="NTlsoJPtowSk1-Xdmp0e-37" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="0.1254" y="17" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="670" y="380" as="sourcePoint" />
+            <mxPoint x="850" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
